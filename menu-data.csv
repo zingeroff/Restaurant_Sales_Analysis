@@ -1,0 +1,46 @@
+menu_item_id,item_name,category,price ($),cost ($)
+101,Classic Beef Burger,Beef Burger,11.99,4.80
+102,BBQ Bacon Burger,Beef Burger,13.50,5.40
+103,Mushroom Swiss Burger,Beef Burger,12.99,5.20
+104,Spicy Jalapeno Burger,Beef Burger,12.50,5.00
+105,Double Cheeseburger,Beef Burger,14.99,6.00
+106,Crispy Chicken Burger,Chicken Burger,10.99,4.40
+107,Spicy Chicken Deluxe,Chicken Burger,11.50,4.60
+108,Grilled Chicken Avocado Burger,Chicken Burger,12.99,5.20
+109,Fries (Small),Snacks,3.99,1.60
+110,Fries (Large),Snacks,5.99,2.40
+111,Chicken Nuggets (6 pcs),Snacks,6.99,2.80
+112,Chicken Nuggets (12 pcs),Snacks,11.99,4.80
+113,Spicy Chicken Wings (6 pcs),Snacks,8.99,3.60
+114,Spicy Chicken Wings (12 pcs),Snacks,14.99,6.00
+115,Caesar Salad,Salads,8.99,3.60
+116,Greek Salad,Salads,8.50,3.40
+117,Chocolate Fudge Cake,Desserts,6.99,2.80
+118,Vanilla Cheesecake,Desserts,7.50,3.00
+119,Strawberry Ice Cream,Desserts,4.99,2.00
+120,Chocolate Ice Cream,Desserts,4.99,2.00
+121,Glazed Donut,Desserts,2.99,1.20
+122,Cinnamon Sugar Donut,Desserts,2.99,1.20
+123,Vanilla Milkshake,Milkshakes,5.99,2.40
+124,Chocolate Milkshake,Milkshakes,5.99,2.40
+125,Strawberry Milkshake,Milkshakes,5.99,2.40
+126,Coca-Cola,Sodas,2.99,1.20
+127,Diet Coke,Sodas,2.99,1.20
+128,Sprite,Sodas,2.99,1.20
+129,Fanta Orange,Sodas,2.99,1.20
+130,Root Beer,Sodas,2.99,1.20
+131,Margherita Pizza,Pizza,12.99,5.20
+132,Pepperoni Pizza,Pizza,13.99,5.60
+133,BBQ Chicken Pizza,Pizza,14.50,5.80
+134,Veggie Supreme Pizza,Pizza,13.50,5.40
+135,Meat Lovers Pizza,Pizza,14.99,6.00
+136,Espresso,Hot Drinks,3.50,1.40
+137,Cappuccino,Hot Drinks,4.50,1.80
+138,Latte,Hot Drinks,4.99,2.00
+139,Americano,Hot Drinks,3.99,1.60
+140,Green Tea,Hot Drinks,2.99,1.20
+141,Black Tea,Hot Drinks,2.99,1.20
+142,Bottled Water,Water & Juice,1.99,0.80
+143,Orange Juice,Water & Juice,3.99,1.60
+144,Apple Juice,Water & Juice,3.99,1.60
+145,Lemonade,Water & Juice,3.50,1.40
