@@ -1,6 +1,8 @@
 # Restaurant Sales Analysis
 
-Welcome to the **Restaurant Sales Analysis** project! This repository is dedicated to exploring customer, menu, and orders data over multiple months, applying both Python-based and SQL-based analytics, and visualizing key insights in Tableau.
+Welcome to the **Restaurant Sales Analysis** project! 
+This repository is dedicated to exploring customer, menu, and orders data over multiple months, 
+applying both Python-based and SQL-based analytics, and visualizing key insights in Tableau.
 
 ## Repository Structure
 
