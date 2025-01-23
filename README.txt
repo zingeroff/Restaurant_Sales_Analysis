@@ -5,24 +5,24 @@ This repository is dedicated to exploring customer, menu, and orders data over m
 applying both Python-based and SQL-based analytics, and visualizing key insights in Tableau.
 
 ## Repository Structure
-
-restaurant_sales_analysis/ ├─ data/ │ 
-                                 ├─ guests.csv │ 
-                                 ├─ menu-data.csv │ 
-                                 ├─ orders_04_2022.csv │ 
-                                 ├─ orders_05_2022.csv │ 
-                                 ├─ orders_06_2022.csv 
-                           ├─ notebooks/ │ 
-                                 ├─ 0_Environment_Setup.ipynb │ 
-                                 ├─ 1_Data_Collection_Loading.ipynb │ 
-                                 ├─ 2_Data_Cleaning.ipynb │ 
-                                 ├─ 3_Exploratory_Analysis.ipynb │ 
-                                 ├─ 4_Advanced_Metrics_and_SQL.ipynb │ 
-                                 ├─ 5_Advanced_Customer_Analytics.ipynb │ 
-                                 └─ 6_Advanced_Insights.ipynb 
-                           ├─ dashboard/ │ 
-                                 └─ (Tableau dashboards or screenshots) 
-                           └─ README.md
+restaurant_sales_analysis/
+                     ├─ data/ 
+                     │     ├─ guests.csv 
+                     │     ├─ menu-data.csv 
+                     │     ├─ orders_04_2022.csv
+                     |     ├─ orders_05_2022.csv
+                     |     ├─ orders_06_2022.csv 
+                     ├─ notebooks/
+                     |     ├─ 0_Environment_Setup.ipynb
+                     |     ├─ 1_Data_Collection_Loading.ipynb 
+                     |     ├─ 2_Data_Cleaning.ipynb
+                     |     ├─ 3_Exploratory_Analysis.ipynb
+                     |     ├─ 4_Advanced_Metrics_and_SQL.ipynb 
+                     |     ├─ 5_Advanced_Customer_Analytics.ipynb 
+                     |     └─ 6_Advanced_Insights.ipynb 
+                     ├─ dashboard/
+                     |     └─ (Tableau dashboards or screenshots) 
+                     └─ README.md
 
 ## Project Goals
 
