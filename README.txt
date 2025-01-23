@@ -1,89 +1,41 @@
 # Restaurant Sales Analysis
 
-## Overview
-This project focuses on analyzing sales and operational data from a fast-food restaurant chain. The analysis aims to uncover key insights into customer behavior, popular menu items, and operational efficiency to help drive business decisions.
+Welcome to the **Restaurant Sales Analysis** project! This repository is dedicated to exploring customer, menu, and orders data over multiple months, applying both Python-based and SQL-based analytics, and visualizing key insights in Tableau.
 
-## Objectives
-1. **Sales Analysis**
-   - Identify the most and least popular menu items.
-   - Calculate Average Order Value (AOV) and its trends.
-   - Assess the impact of discounts and promotions on revenue.
+## Repository Structure
 
-2. **Customer Behavior Analysis**
-   - Determine peak hours and days of the week for orders.
-   - Analyze customer repeat behavior and order patterns.
+restaurant_sales_analysis/ ├─ data/ │ 
+                                 ├─ guests.csv │ 
+                                 ├─ menu-data.csv │ 
+                                 ├─ orders_04_2022.csv │ 
+                                 ├─ orders_05_2022.csv │ 
+                                 ├─ orders_06_2022.csv 
+                           ├─ notebooks/ │ 
+                                 ├─ 0_Environment_Setup.ipynb │ 
+                                 ├─ 1_Data_Collection_Loading.ipynb │ 
+                                 ├─ 2_Data_Cleaning.ipynb │ 
+                                 ├─ 3_Exploratory_Analysis.ipynb │ 
+                                 ├─ 4_Advanced_Metrics_and_SQL.ipynb │ 
+                                 ├─ 5_Advanced_Customer_Analytics.ipynb │ 
+                                 └─ 6_Advanced_Insights.ipynb 
+                           ├─ dashboard/ │ 
+                                 └─ (Tableau dashboards or screenshots) 
+                           └─ README.md
 
-3. **Operational Analysis**
-   - Calculate Food Cost percentage for each item.
-   - Evaluate inventory turnover rates.
-   - Identify inefficiencies in operations.
+## Project Goals
 
-4. **Forecasting**
-   - Predict revenue based on day of the week and time of day.
-   - Simulate the impact of menu and pricing changes on revenue.
+- **Data Cleaning & Integrity**: Ensure all references (client IDs, menu item IDs) are consistent.
+- **Exploratory Analysis**: Uncover initial patterns, top items, daily/weekly trends.
+- **Advanced Analytics**: Profit calculations, RFM (Recency, Frequency, Monetary), cohort analysis, etc.
+- **Tableau Visualization**: Interactive dashboards for business stakeholders.
 
-## Datasets
-The project utilizes three primary datasets:
-- **Orders Dataset**: Contains order details such as date, time, menu items, and total price.
-- **Menu Dataset**: Includes menu item details such as name, category, price, and cost.
-- **Guests Dataset**: Provides customer information such as demographics and referral sources.
+## How to Use
 
-## Tools and Technologies
-- **Python**: For data processing and analysis (pandas, numpy, matplotlib, seaborn).
-- **SQL**: For querying and transforming data.
-- **Tableau/Power BI**: For creating dashboards and data visualizations.
+1. **Clone or Fork** this repository.
+2. **Open Notebooks** in Google Colab:
+   - `0_Environment_Setup.ipynb` to install dependencies (`ipython-sql`, etc.).
+   - Next notebooks for step-by-step analysis.
+3. **Data Folder (`data/`)** contains the CSV files (guests, menu, orders).
+4. **Tableau Dashboards** can be found in `dashboard/`.
 
-## Project Structure
-```
-Restaurant_Sales_Analysis/
-├── data/               # Raw and processed data files
-├── notebooks/          # Jupyter notebooks for analysis
-├── visuals/            # Saved charts and dashboards
-├── README.md           # Project description
-└── analysis/           # Final reports and insights
-```
-
-## Key Metrics
-1. **Financial Metrics**:
-   - Average Order Value (AOV)
-   - Gross Merchandise Volume (GMV)
-   - Food Cost Percentage
-   - Profit Margin
-
-2. **Operational Metrics**:
-   - Turnover Rate
-   - Average Table Turn Time
-
-3. **Customer Metrics**:
-   - Frequency Rate
-   - Popular Items
-   - Churn Rate
-
-## Progress
-### Completed Steps
-- Data validation.
-- Preliminary data cleaning and processing.
-
-### Upcoming Steps
-1. **Sales Analysis**
-   - Popular menu items.
-   - AOV trends.
-   - Discount impact on revenue.
-
-2. **Customer Analysis**
-   - Peak hours and days.
-   - Customer behavior patterns.
-
-3. **Operational Analysis**
-   - Food Cost analysis.
-   - Inventory efficiency.
-
-4. **Forecasting and Visualizations**
-   - Revenue predictions.
-   - Tableau dashboards.
-
-## Contact
-For more details, contact:
-**Nariman Zingerov**  
-Email: zingeroff@gmail.com  
-LinkedIn: www.linkedin.com/in/nariman-zingerov-a21a75270
+Stay tuned for more updates and final insights!
