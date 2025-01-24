@@ -67,7 +67,7 @@ After performing data cleaning in `1_Data_Cleaning.ipynb`, we generated a new CS
 1. Download the CSV from Colab:
    ```python
    from google.colab import files
-   files.download("orders_04_06_cleaned.csv")
+   files.download("orders_cleaned.csv")
 
 
 By the end of this cleaning phase, we have a reliable dataset ready for **Exploratory Data Analysis (EDA)**.
