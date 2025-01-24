@@ -59,6 +59,17 @@ This notebook focuses on:
 4. **Handling Missing Values and Duplicates**  
    - Checking for null entries and removing duplicates to ensure clean, consistent data.
 
+
+## Saving and Uploading Cleaned Data
+
+After performing data cleaning in `1_Data_Cleaning.ipynb`, we generated a new CSV file named `orders_cleaned.csv`. Because Google Colab doesn't automatically push CSV files to our GitHub repository, we manually upload the file to our `/data` folder:
+
+1. Download the CSV from Colab:
+   ```python
+   from google.colab import files
+   files.download("orders_04_06_cleaned.csv")
+
+
 By the end of this cleaning phase, we have a reliable dataset ready for **Exploratory Data Analysis (EDA)**.
 
 
