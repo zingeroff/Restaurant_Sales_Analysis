@@ -72,5 +72,20 @@ After performing data cleaning in `1_Data_Cleaning.ipynb`, we generated a new CS
 
 By the end of this cleaning phase, we have a reliable dataset ready for **Exploratory Data Analysis (EDA)**.
 
+## Exploratory Analysis (Advanced)
+
+Notebook: [2_Exploratory_Analysis.ipynb](notebooks/2_Exploratory_Analysis.ipynb)
+
+This notebook includes:
+- **Daily Revenue Trends**
+- **Order Distribution by Time of Day**
+- **Top-Selling Items** 
+- **AOV (Average Order Value) Distribution**
+- **Discount Analysis**
+- **Heatmap (Day of Week × Time of Day)**
+
+By exploring these aspects, we uncover operational patterns, highest-demand periods, and overall customer behavior, guiding informed business decisions.
+
+
 
 Stay tuned for more updates and final insights!
