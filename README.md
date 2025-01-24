@@ -40,4 +40,26 @@ restaurant_sales_analysis/
 3. **Data Folder (`data/`)** contains the CSV files (guests, menu, orders).
 4. **Tableau Dashboards** can be found in `dashboard/`.
 
+## Data Cleaning and Preparation
+
+Notebook: [1_Data_Cleaning.ipynb](notebooks/1_Data_Cleaning.ipynb)
+
+This notebook focuses on:
+
+1. **Data Integrity**  
+   - Ensuring each `menu_item_id` from the orders matches entries in the menu dataset,  
+   - Verifying `client_id` references are consistent with the guests table.
+
+2. **Datetime Conversion**  
+   - Converting `order_date` and `order_time` columns into proper datetime formats.
+
+3. **Categorizing Time of Day**  
+   - Splitting orders into `Morning`, `Lunch`, `Afternoon`, and `Evening` intervals based on the restaurant's hours (8:00 AM to 11:00 PM).
+
+4. **Handling Missing Values and Duplicates**  
+   - Checking for null entries and removing duplicates to ensure clean, consistent data.
+
+By the end of this cleaning phase, we have a reliable dataset ready for **Exploratory Data Analysis (EDA)**.
+
+
 Stay tuned for more updates and final insights!
