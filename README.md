@@ -86,6 +86,20 @@ This notebook includes:
 
 By exploring these aspects, we uncover operational patterns, highest-demand periods, and overall customer behavior, guiding informed business decisions.
 
+### 3. Advanced Metrics & Visualization
+
+- Calculate advanced financial metrics:
+  - **Overall Profit Margin**: Total profit divided by total sales
+  - **Average Items per Order**: Total quantity of items divided by the number of unique orders
+  - **Average Revenue per Guest**: Total sales divided by the number of unique guests
+
+- **Visualizations**:
+  - **Top 5 Categories by Profit**: Bar chart showcasing the most profitable categories
+  - **Top 5 Items by Profit**: Bar chart highlighting the top-performing menu items
+  - **Revenue by Referral Source**: Pie chart illustrating the distribution of revenue across different referral channels
+  - **Key KPIs**: Textual summary of critical metrics
+
+
 
 
 Stay tuned for more updates and final insights!
