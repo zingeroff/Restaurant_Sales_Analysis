@@ -88,6 +88,8 @@ By exploring these aspects, we uncover operational patterns, highest-demand peri
 
 ### 3. Advanced Metrics & Visualization
 
+Notebook: [3_Advanced_Metrics.ipynb](notebooks/3_Advanced_Metrics.ipynb)
+
 - Calculate advanced financial metrics:
   - **Overall Profit Margin**: Total profit divided by total sales
   - **Average Items per Order**: Total quantity of items divided by the number of unique orders
