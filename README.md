@@ -86,7 +86,7 @@ This notebook includes:
 
 By exploring these aspects, we uncover operational patterns, highest-demand periods, and overall customer behavior, guiding informed business decisions.
 
-### 3. Advanced Metrics & Visualization
+### Advanced Metrics & Visualization
 
 Notebook: [3_Advanced_Metrics.ipynb](notebooks/3_Advanced_Metrics.ipynb)
 
@@ -101,6 +101,37 @@ Notebook: [3_Advanced_Metrics.ipynb](notebooks/3_Advanced_Metrics.ipynb)
   - **Revenue by Referral Source**: Pie chart illustrating the distribution of revenue across different referral channels
   - **Key KPIs**: Textual summary of critical metrics
 
+###  Advanced Analytics
+
+Notebook: [4_Advanced_Analytics.ipynb](notebooks/4_Advanced_Analytics.ipynb)
+
+In this notebook, we perform **deeper customer-centric analyses** to gain further insights into the restaurant’s performance and identify strategies to improve customer retention, lifetime value, and overall profitability:
+
+- **RFM Analysis**  
+  - Segment customers based on **Recency**, **Frequency**, and **Monetary** metrics.  
+  - Identify high-value customers and develop targeted marketing strategies.
+
+- **Cohort Analysis**  
+  - Examine **customer retention** over time by grouping users based on their first purchase month (cohort).  
+  - Track and compare how different cohorts engage and remain active in subsequent months.
+
+- **Customer Lifetime Value (CLV)**  
+  - Estimate the total revenue a customer is expected to generate over their entire relationship with the restaurant.  
+  - Understand how investing in customer acquisition and retention can yield higher returns.
+
+By incorporating these advanced analytical methods, the notebook reveals **patterns in customer loyalty**, **high-value segments**, and **long-term profitability drivers**, enabling the restaurant to make data-driven decisions that enhance both customer satisfaction and business performance.
+
+---
+
+###  Prepare Data for Tableau
+
+To facilitate further **interactive visualizations** in Tableau, we export key outputs:
+
+- **Export RFM Data** → `rfm_results.csv` (data/rfm_results.csv)  
+- **Export Cohort Data** → `cohort_retention_tableau.csv` (data/cohort_retention_tableau.csv)  
+- **Export CLV Data** → `clv.csv` (data/clv.csv)   
+
+These files can be imported into Tableau to create in-depth dashboards, such as **heatmaps** of cohort retention or **segmentation charts** for RFM, providing a **dynamic view** of customer behavior and revenue potential.
 
 
 
