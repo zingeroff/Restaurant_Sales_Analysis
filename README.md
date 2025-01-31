@@ -6,6 +6,7 @@ highlight top-selling items, and segment customers for targeted marketing initia
 
 
 ## Repository Structure
+```
 restaurant_sales_analysis/
                      ├─ data/ 
                      │     ├─ guests.csv 
@@ -22,7 +23,7 @@ restaurant_sales_analysis/
                      ├─ visuals/
                      |     └─ (Visualizations PNG files) 
                      └─ README.md
-
+```
 
 ## Tools & Technologies
 
