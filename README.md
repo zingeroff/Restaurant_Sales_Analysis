@@ -19,7 +19,7 @@ restaurant_sales_analysis/
                      |     ├─ 1_Data_Cleaning.ipynb
                      |     ├─ 2_Exploratory_Analysis.ipynb
                      |     ├─ 3_Advanced_Metrics.ipynb 
-                     |     └─  4_Advanced_Analytics.ipynb 
+                     |     └─ 4_Advanced_Analytics.ipynb 
                      ├─ visuals/
                      |     └─ (Visualizations PNG files) 
                      └─ README.md
