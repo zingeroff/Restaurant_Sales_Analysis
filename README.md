@@ -150,7 +150,7 @@ Expand dataset to include more months or additional features.
 
 ### Key Findings
 
-
+**Basical Sales Analysis**
 1. Daily Revenue Trend: Visualization of revenue by day over three months demonstrates an upward trend in sales (in dollars). Day-to-day fluctuations in revenue are not significant.
 Time of Day:The chart shows that the lunch period (11:00–14:00) has the highest number of orders, followed by the evening and morning periods, with the afternoon period having the lowest order count. This indicates that lunch is the peak time for customer activity, while the afternoon sees a significant drop in orders.
 
@@ -164,7 +164,7 @@ Time of Day:The chart shows that the lunch period (11:00–14:00) has the highes
 5. Heatmap (Day of Week vs Time of Day): The heatmap reveals that Wednesday and Sunday have the highest order volumes during lunch hours, making them peak days for sales. In contrast, mornings and afternoons across all days see significantly lower order counts.
 **These insights guide management decisions for staffing, promotional timing, and menu optimization.**
 
-**Key Insights from Advanced Metrics Analysis**
+**Key Insights about Profitability and Revenue Analysis**
 1. Most Profitable Categories
 Snacks lead in profitability, followed by Pizza and Beef Burgers, indicating that smaller items contribute significantly to revenue.
 Milkshakes and Chicken Burgers generate the least profit among the top five, suggesting they may have lower margins or lower sales volume.
@@ -189,7 +189,7 @@ Improve Lower-Performing Categories: Milkshakes and Chicken Burgers could benefi
 These insights help guide menu optimization, pricing strategies, and marketing focus for sustained business growth.
 
 
-**Conclusions and Key Insights**
+**Conclusions of customer behavior**
 1. RFM Analysis
 Recency (R Score): Customers with a lower recency score (1-2) have made purchases more recently, while those with a higher score (4-5) have not made a purchase in a longer time. This suggests a segment of inactive customers who may need re-engagement strategies.
 Frequency (F Score): Customers with higher frequency scores have made fewer purchases, while those with lower scores have made significantly more transactions. This indicates a loyal customer base that makes frequent purchases.
