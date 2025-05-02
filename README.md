@@ -97,6 +97,24 @@ This notebook includes:
 
 By exploring these aspects, we uncover operational patterns, highest-demand periods, and overall customer behavior, guiding informed business decisions.
 
+- **Daily Revenue Trend**
+  ![Daily Revenue](visuals/Daily%20Revenue.png)
+
+- **Orders by Time of Day**
+  ![Orders by Time of Day](visuals/Orders%20by%20Time%20of%20Day.png)
+
+- **Top-Selling Items**
+  ![Top-Selling Items](visuals/Top-Selling%20Items.png)
+
+- **Average Order Value (AOV) Distribution**
+  ![Distribution of AOV](visuals/Distribution%20of%20AOV.png)
+
+- **Discount Usage Distribution**
+  ![Discount Distribution](visuals/Discount%20Distribution.png)
+
+- **Heatmap (Day of Week × Time of Day)**
+  ![Heatmap](visuals/Heatmap%20%28Day%20of%20Week%20vs%20Time%20of%20Day%29.png)
+
 ### Advanced Metrics & Visualization
 
 Notebook: [3_Advanced_Metrics.ipynb](notebooks/3_Advanced_Metrics.ipynb)
@@ -112,6 +130,9 @@ Notebook: [3_Advanced_Metrics.ipynb](notebooks/3_Advanced_Metrics.ipynb)
   - **Revenue by Referral Source**: Pie chart illustrating the distribution of revenue across different referral channels
   - **Key KPIs**: Textual summary of critical metrics
 
+- **Advanced Metrics Overview**
+  ![Advanced Metrics](visuals/Advanced%20Metrics%20Analysis.png)
+
 ###  Advanced Analytics
 
 Notebook: [4_Advanced_Analytics.ipynb](notebooks/4_Advanced_Analytics.ipynb)
@@ -122,6 +143,9 @@ In this notebook, we perform **deeper customer-centric analyses** to gain furthe
   - Segment customers based on **Recency**, **Frequency**, and **Monetary** metrics.  
   - Identify high-value customers and develop targeted marketing strategies.
 
+- **RFM Segmentation**
+  ![RFM](visuals/RFM.png)
+
 - **Cohort Analysis**  
   - Examine **customer retention** over time by grouping users based on their first purchase month (cohort).  
   - Track and compare how different cohorts engage and remain active in subsequent months.
@@ -129,6 +153,9 @@ In this notebook, we perform **deeper customer-centric analyses** to gain furthe
 - **Customer Lifetime Value (CLV)**  
   - Estimate the total revenue a customer is expected to generate over their entire relationship with the restaurant.  
   - Understand how investing in customer acquisition and retention can yield higher returns.
+
+- **Customer Lifetime Value (CLV)**
+  ![CLV](visuals/CLV.png)
 
 By incorporating these advanced analytical methods, the notebook reveals **patterns in customer loyalty**, **high-value segments**, and **long-term profitability drivers**, enabling the restaurant to make data-driven decisions that enhance both customer satisfaction and business performance.
 
