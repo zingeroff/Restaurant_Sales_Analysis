@@ -98,22 +98,29 @@ This notebook includes:
 By exploring these aspects, we uncover operational patterns, highest-demand periods, and overall customer behavior, guiding informed business decisions.
 
 - **Daily Revenue Trend**
+
   ![Daily Revenue](visuals/Daily%20Revenue.png)
 
 - **Orders by Time of Day**
-  ![Orders by Time of Day](visuals/Orders%20by%20Time%20of%20Day.png)
+
+  ![Orders by Time of Day](visuals/Orders by Time of Day.png)
 
 - **Top-Selling Items**
+
   ![Top-Selling Items](visuals/Top-Selling%20Items.png)
 
 - **Average Order Value (AOV) Distribution**
+
   ![Distribution of AOV](visuals/Distribution%20of%20AOV.png)
 
 - **Discount Usage Distribution**
+
   ![Discount Distribution](visuals/Discount%20Distribution.png)
 
 - **Heatmap (Day of Week × Time of Day)**
+
   ![Heatmap](visuals/Heatmap%20%28Day%20of%20Week%20vs%20Time%20of%20Day%29.png)
+
 
 ### Advanced Metrics & Visualization
 
