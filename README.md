@@ -103,7 +103,7 @@ By exploring these aspects, we uncover operational patterns, highest-demand peri
 
 - **Orders by Time of Day**
 
-  ![Orders by Time of Day](visuals/Orders by Time of Day.png)
+  ![Orders by Time of Day](visuals/Orders%20by%20Time%20of%20Day.png)
 
 - **Top-Selling Items**
 
