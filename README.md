@@ -39,7 +39,7 @@ List the primary languages, libraries, and platforms used:
 
 - **Data Cleaning & Integrity**: Ensure all references (client IDs, menu item IDs) are consistent.
 - **Exploratory Analysis**: Uncover initial patterns of daily revenue, top items, daily/weekly sales trends and average order value(AOV).
-- **Advanced Analytics**: Profit calculations by menu category and overal. Customer behavior such as RFM (Recency, Frequency, Monetary), cohort analysis and referral source.
+- **Advanced Analytics**: Profit calculations by menu category and overal. Customer behavior such as RFM (Recency, Frequency, Monetary), CLV and referral source.
 
 
 ## How to Use
@@ -153,10 +153,6 @@ In this notebook, we perform **deeper customer-centric analyses** to gain furthe
 - **RFM Segmentation**
   ![RFM](visuals/RFM.png)
 
-- **Cohort Analysis**  
-  - Examine **customer retention** over time by grouping users based on their first purchase month (cohort).  
-  - Track and compare how different cohorts engage and remain active in subsequent months.
-
 - **Customer Lifetime Value (CLV)**  
   - Estimate the total revenue a customer is expected to generate over their entire relationship with the restaurant.  
   - Understand how investing in customer acquisition and retention can yield higher returns.
@@ -172,12 +168,11 @@ By incorporating these advanced analytical methods, the notebook reveals **patte
 
 to extend the project:
 
-Add predictive modeling or ARIMA for sales forecasting.
+Add predictive modeling for sales forecasting.
 Deploy a Streamlit or Dash app for interactive data exploration.
-Integrate RFM or Cohort analyses if not done.
+Integrate RFM analyses if not done.
 To facilitate further **interactive visualizations** in Tableau, we export key outputs:
-- **Export RFM Data** → `rfm_results.csv` (data/rfm_results.csv)  
-- **Export Cohort Data** → `cohort_retention_tableau.csv` (data/cohort_retention_tableau.csv)  
+- **Export RFM Data** → `rfm_results.csv` (data/rfm_results.csv)   
 - **Export CLV Data** → `clv.csv` (data/clv.csv)   
 Expand dataset to include more months or additional features.
 
@@ -229,11 +224,8 @@ Recency (R Score): Customers with a lower recency score (1-2) have made purchase
 Frequency (F Score): Customers with higher frequency scores have made fewer purchases, while those with lower scores have made significantly more transactions. This indicates a loyal customer base that makes frequent purchases.
 Monetary (M Score): Customers with lower monetary scores have spent significantly more than those with higher scores, suggesting that high-value customers are concentrated in lower RFM segments.
 
-2. Cohort Analysis
-Retention Rates: The current cohort analysis shows a 100% retention rate across all months.
-Note: The data was synthetically generated for demonstration purposes and does not reflect real-world customer behavior. In a real analysis, retention rates would typically decline over time due to customer churn.
 
-3. Customer Lifetime Value (CLV)
+2. Customer Lifetime Value (CLV)
 Average Purchase Value: 2,667.02, indicating that customers tend to place high-value orders.
 Purchase Frequency: 67.22 purchases per customer, which suggests that loyal customers return frequently.
 Customer Lifetime Value (CLV): $179,273.33, meaning each customer contributes a significant amount in revenue over their lifetime. This high CLV suggests that the business benefits from strong customer retention and frequent repeat purchases.
